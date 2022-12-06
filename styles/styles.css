@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(103, 94, 87);
+    
+}
+
+header, main, footer {
+ background-color: lightblue;
+}
+
+/* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
+header div {
+   display: flex;
+   align-items: centers;
+   /* For spacing use, use rems */
+   gap: 2rem;
+}
+
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+h1{
+    /* For font-sizes, use ems. */
+font-size: 3.6em;
+font-weight: 700;
+}
+
+
+nav ul {
+display: flex;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(184, 164, 148);
+    padding: 20px;
+    border: 5.5px;
+    margin: 35px;
+  }
+
+
+    
+
+li {
+list-style: none;
+
+}
